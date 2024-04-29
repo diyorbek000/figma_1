@@ -6,7 +6,6 @@
 }
 
 header {
-    border: 2px solid red;
     width: 1440px;
     margin: auto;
 }
@@ -727,7 +726,8 @@ span {
 .selling_paragraph_1 {
     color: #666666;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .selling_buttons {
@@ -760,6 +760,9 @@ span {
     align-items: center;
 }
 
+.selling_price_1 {
+    margin: -10px 0px 0px 0px;
+}
 .selling_icon_2 {
     transform: rotate(180deg);
 }
@@ -928,7 +931,6 @@ span {
 }
 
 .prime_time {
-    border: 2px solid red;
     margin: 13px 0px 13px;
     width: 100%;
     display: flex;
@@ -1170,7 +1172,6 @@ span {
     width: 1440px;
     height: 600px;
     position: relative;
-    border: 2px solid green;
 }
 
 .footer_header {
@@ -1208,47 +1209,114 @@ span {
 .footer_page {
     margin: 0px 0px 0px -420px;
     background-color: #F7F7F7;
-    border: 2px solid red;
     width: 1440px;
-    height: 550px;
+    height: 45 0px;
 }
 
 .footer_logo {
-    border: 2px solid red;
     width: 200px;
-    height: 200px;
+    height: 100px;
+    margin: 100px 0px 0px 0px;
 }
 
-.footer_links_1 {
-    border: 2px solid red;
+.footer_logos {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.facebook {
+    color: #666666;
+    transition: .4s;
+}
+
+.facebook:hover {
+    color: #e10909
+}
+
+.linkedin {
+    color: #666666;
+    transition: .4s;
+}
+
+.linkedin:hover {
+    color: #e10909;
+}
+
+.instagram {
+    color: #666666;
+    transition: .4s;
+}
+
+.instagram:hover {
+    color: #e10909;
+}
+
+.behance {
+    color: #666666;
+    transition: .4s;
+}
+
+.behance:hover {
+    color: #e10909;
+}
+
+.basketball {
+    color: #666666;
+    transition: .4s;
+}
+
+.basketball:hover {
+    color: #e10909;
 }
 
 .footer_paragraf {
-    border: 2px solid red;
     width: 270px;
     height: 56px;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
     color: #666666;
+    margin-left: 65px;
 }
 
-.footer_links_2 {
-    border: 2px solid red;
+.figma_since {
+    width: 100%;
+    color: #666666;
+    margin-top: 40%;
 }
 
-.footer_links_3 {
-    border: 2px solid red;
+.footer_header_info {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+    height: 80px;
+    margin: 140px 0px 0px 0px;
 }
 
-.footer_links_4 {
-    border: 2px solid red;
+.footer_chiziq {
+    margin: 10px 0px 0px 0px;
 }
 
-.facebook {
-    border: 2px solid red;
+.footer_paragraph_info {
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 17px;
 }
 
-.in {
-    border: 2px solid red;
+.footer_chiziq {
+    border: 1px solid #666666;
+    width: 70px;
+    height: 0px;
 }
+
+.payment {
+    margin: 10px 0px 0px 0px;
+}
+
